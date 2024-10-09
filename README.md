@@ -40,6 +40,8 @@ bowtie2-build GCF_000001405.40_GRCh38.p14_genomic.fna Human
 ```
 
 # Overview of the pipeline
+![dag](https://github.com/user-attachments/assets/7e37e258-c801-48ad-9fb5-96c5cf1d0e8e)
+
 
 # How to run the Snakemake pipeline
 In the Snakefile, you will find samples variables. You can change ["sample_name"] to your actual sample name.
@@ -47,4 +49,10 @@ The pipeline is designed to work with paired files {sample}_1.fastq.gz and {samp
 
 ```
 # run the pipeline
+mkdir -p result/1.fastqc/
+mkdir -p result/2.trimmomatic/
+mkdir -p result/3.fastqc/
+mkdir -p result/4.rm_dna/1.sort/
+mkdir -p result/4.rm_dna/2.fq/
 snakemake --cores 8
+```
