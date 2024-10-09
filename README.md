@@ -29,3 +29,5 @@ conda activate snakemake_env
 conda install fastqc=0.11.9 trimmomatic=0.39 bowtie2=2.4.5 samtools=1.17 bedtools=2.30.0
 ```
 
+**Additionally, the human genome should be downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/)**
+
