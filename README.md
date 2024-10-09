@@ -9,7 +9,7 @@ This is a Snakemake workflow to:
 1. Development of early life gut resistome and mobilome across gestational ages and microbiota-modifying treatments
 **Authors:** **Ahmed Bargheet**, Claus Klingenberg, Eirin Esaiassen, Erik Hjerde, Jorunn Pauline Cavanagh, Johan Bengtsson-Palme, Veronika Kuchařová Pettersen
 
-2. Dynamics of the Gut Resistome and Mobilome in Early Life: A Meta-Analysis
+3. Dynamics of the Gut Resistome and Mobilome in Early Life: A Meta-Analysis
 **Authors:** **Ahmed Bargheet**, Hanna Noordzij, Alise Ponsero, Ching Jian, Katri Korpela, Mireia Valles-Colomer, Justine Debelius, Alexander Kurilshikov, Veronika K. Pettersen
 
 # Installation and requirements
