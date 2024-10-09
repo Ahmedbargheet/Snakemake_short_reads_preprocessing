@@ -1,3 +1,3 @@
-Preprocessing steps for metagenomics reads
+# Preprocessing steps for metagenomics reads
 
-Installation and requirements
+# Installation and requirements
