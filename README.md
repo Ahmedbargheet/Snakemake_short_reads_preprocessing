@@ -1,9 +1,9 @@
 # Preprocessing steps for metagenomics reads
-This is a Snakemake workflow to: 
-1. Check the metagenomics reads quality using Fastqc.
-2. Remove low-quality bases and adapters using trimmomatic
-3. Double-check the metagenomics reads quality upon trimming using Fastqc.
-4. Remove human DNA.
+**This is a Snakemake workflow to:** 
+1. Quality check of metagenomic reads using **FastQC**.
+2. Trimming of low-quality bases and adapter sequences using **Trimmomatic**.
+3. Post-trimming quality assessment of reads using **FastQC**.
+4. Removal of human DNA from the metagenomic dataset.
 
 **This workflow was used in:** 
 1. Development of early life gut resistome and mobilome across gestational ages and microbiota-modifying treatments <br />
