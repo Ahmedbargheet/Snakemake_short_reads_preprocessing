@@ -5,7 +5,7 @@
 3. Assess the post-trimming quality of reads using **FastQC**.
 4. Remove human DNA from the metagenomic dataset.
 
-**This workflow was used in:** 
+### This workflow was used in: 
 1. Development of early life gut resistome and mobilome across gestational ages and microbiota-modifying treatments <br />
 **Authors:** **Ahmed Bargheet**, Claus Klingenberg, Eirin Esaiassen, Erik Hjerde, Jorunn Pauline Cavanagh, Johan Bengtsson-Palme, Veronika Kuchařová Pettersen
 
@@ -21,10 +21,11 @@ git clone https://github.com/Ahmedbargheet/Snakemake_short_reads_preprocessing.g
 cd Snakemake_short_reads_preprocessing
 
 ## Snakemake installation in a conda environment
-conda env create snakemake_env --file envs/env_snakemake.yml
+conda env create --file envs/env_snakemake.yml
+
 # Alternatively you can create the environment manually:
-conda create -n snakemake_env bioconda::snakemake
+conda create -n snakemake_env -c bioconda snakemake
 conda activate snakemake_env
-conda install snakemake
+conda install fastqc=0.11.9 trimmomatic=0.39 bowtie2=2.4.5 samtools=1.17 bedtools=2.30.0
 ```
 
