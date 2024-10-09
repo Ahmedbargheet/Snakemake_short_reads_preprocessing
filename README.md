@@ -30,4 +30,10 @@ conda install fastqc=0.11.9 trimmomatic=0.39 bowtie2=2.4.5 samtools=1.17 bedtool
 ```
 
 **Additionally, the human genome should be downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/)**
-
+```
+mkdir Human_database
+cd Human_database
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/GCF_000001405.40_GRCh38.p14_genomic.fna.gz
+gunzip GCF_000001405.40_GRCh38.p14_genomic.fna.gz
+bowtie2-build GCF_000001405.40_GRCh38.p14_genomic.fna Human
+```
