@@ -38,3 +38,13 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_G
 gunzip GCF_000001405.40_GRCh38.p14_genomic.fna.gz
 bowtie2-build GCF_000001405.40_GRCh38.p14_genomic.fna Human
 ```
+
+# Overview of the pipeline
+
+# How to run the Snakemake pipeline
+In the Snakefile, you will find samples variables. You can change ["sample_name"] to your actual sample name.
+The pipeline is designed to work with paired files {sample}_1.fastq.gz and {sample}_2.fastq.gz)
+
+```
+# run the pipeline
+snakemake --cores 8
