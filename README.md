@@ -6,10 +6,10 @@ This is a Snakemake workflow to:
 4. Remove human DNA.
 
 **This workflow was used in:** 
-1. Development of early life gut resistome and mobilome across gestational ages and microbiota-modifying treatments
+1. Development of early life gut resistome and mobilome across gestational ages and microbiota-modifying treatments <br />
 **Authors:** **Ahmed Bargheet**, Claus Klingenberg, Eirin Esaiassen, Erik Hjerde, Jorunn Pauline Cavanagh, Johan Bengtsson-Palme, Veronika Kuchařová Pettersen
 
-3. Dynamics of the Gut Resistome and Mobilome in Early Life: A Meta-Analysis
+3. Dynamics of the Gut Resistome and Mobilome in Early Life: A Meta-Analysis <br />
 **Authors:** **Ahmed Bargheet**, Hanna Noordzij, Alise Ponsero, Ching Jian, Katri Korpela, Mireia Valles-Colomer, Justine Debelius, Alexander Kurilshikov, Veronika K. Pettersen
 
 # Installation and requirements
