@@ -16,6 +16,7 @@
 This pipeline requires the use of Snakemake, FastQC v0.11.9, Trimmomatic v0.39, Bowtie 2 v2.4.5, SAMtools v1.17, and BEDTools v2.30.0. <br />
 If not previously installed run the following code:<br />
 
+```
 git clone https://github.com/Ahmedbargheet/Snakemake_short_reads_preprocessing.git <br />
 cd Snakemake_short_reads_preprocessing <br />
 
@@ -25,3 +26,5 @@ conda env create snakemake_env --file envs/env_snakemake.yml
 conda create -n snakemake_env bioconda::snakemake
 conda activate snakemake_env
 conda install snakemake
+```
+
