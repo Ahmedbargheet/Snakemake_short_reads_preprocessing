@@ -63,3 +63,14 @@ mkdir -p result/4.rm_dna/1.sort/
 mkdir -p result/4.rm_dna/2.fq/
 snakemake --cores 8
 ```
+
+# Note:
+The main workflow is designed to remove adapters from the TruSeq kit.
+However, if the sequencing center used adapters from the Nextera kit, you can change this path:
+```
+/trimmomatic/Trimmomatic-0.39/adapters/TruSeq3-PE.fa
+```
+**To**
+```
+/trimmomatic/Trimmomatic-0.39/adapters/NexteraPE-PE.fa
+```
