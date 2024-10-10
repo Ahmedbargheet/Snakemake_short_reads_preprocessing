@@ -13,10 +13,11 @@
 **Authors:** **Ahmed Bargheet**, Hanna Noordzij, Alise Ponsero, Ching Jian, Katri Korpela, Mireia Valles-Colomer, Justine Debelius, Alexander Kurilshikov, Veronika K. Pettersen
 
 # Installation and requirements
-This pipeline requires the use of Snakemake, FastQC v0.11.9, Trimmomatic v0.39, Bowtie 2 v2.4.5, SAMtools v1.17, and BEDTools v2.30.0. <br />
+This pipeline requires the use of Snakemake, FastQC, Trimmomatic, Bowtie 2, SAMtools, and BEDTools. <br />
 If not previously installed run the following code:<br />
 
 ```
+# Clone the repository
 git clone https://github.com/Ahmedbargheet/Snakemake_short_reads_preprocessing.git
 cd Snakemake_short_reads_preprocessing
 
@@ -24,7 +25,7 @@ cd Snakemake_short_reads_preprocessing
 conda env create --file envs/env_snakemake.yml
 
 # Alternatively you can create the environment manually:
-conda create -n snakemake_env -c bioconda snakemake fastqc=0.11.9 trimmomatic=0.39 bowtie2=2.4.5 samtools=1.17 bedtools=2.30.0
+conda create -n snakemake_env -c bioconda snakemake fastqc trimmomatic bowtie2 samtools bedtools
 conda activate snakemake_env
 ```
 
