@@ -47,7 +47,7 @@ wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-
 unzip Trimmomatic-0.39.zip
 ```
 # Overview of the pipeline
-![dag](https://github.com/user-attachments/assets/7e37e258-c801-48ad-9fb5-96c5cf1d0e8e)
+![dag](/Users/ahmedbargheet/Downloads/PhD/New_folder/SLURM/SLURM_scripts/snakemake/1.Preprocessing/dag.png)
 
 
 # How to run the Snakemake pipeline
