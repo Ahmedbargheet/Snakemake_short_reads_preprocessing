@@ -38,6 +38,14 @@ gunzip GCF_000001405.40_GRCh38.p14_genomic.fna.gz
 bowtie2-build GCF_000001405.40_GRCh38.p14_genomic.fna Human
 ```
 
+**Moreover, the Trimmomatic binary file should be downloaded** <br />
+**Follow the following steps**
+```
+mkdir trimmomatic
+cd trimmomatic
+wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+unzip Trimmomatic-0.39.zip
+```
 # Overview of the pipeline
 ![dag](https://github.com/user-attachments/assets/7e37e258-c801-48ad-9fb5-96c5cf1d0e8e)
 
