@@ -48,8 +48,7 @@ wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-
 unzip Trimmomatic-0.39.zip
 ```
 # Overview of the pipeline
-![snakemake_1](https://github.com/user-attachments/assets/282f8129-506b-46a6-80f3-c4613f648b79)
-
+![bitmap](https://github.com/user-attachments/assets/ccc628da-8d73-43ea-bfaf-87303677bc72)
 
 # How to run the Snakemake pipeline
 In the Snakefile, you will find samples variables. You can change ["sample_name"] to your actual sample name.
